@@ -1,0 +1,117 @@
+<h1>Photos</h1>
+
+<style>
+
+<style type="text/css">
+
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+}
+
+.thumbnail:hover img{
+border: 1px solid blue;
+height: 200px;
+width: 200px;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+height: 200px;
+width: 200px;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image*/
+visibility: visible;
+top: 0;
+left: 230px; /*position where enlarged image should offset horizontally */
+z-index: 50;
+}
+
+</style>
+
+<div class="gallerycontainer">
+	
+<br />
+<br />
+<br />
+<br />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/A.jpg" width="100px" height="75px" border="0" />
+	
+	<a class="thumbnail" href="#thumb"><img src="assets/B.jpg" width="100px" height="70px" border="0" />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/C.jpg" width="100px" height="70px" border="0" />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/D.jpg" width="100px" height="70px" border="0" />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/E.jpg" width="100px" height="70px" border="0" />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/F.jpg" width="100px" height="70px" border="0" />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/G.jpg" width="100px" height="70px" border="0" />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/H.jpg" width="100px" height="70px" border="0" />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/I.jpg" width="100px" height="70px" border="0" />
+
+	<a class="thumbnail" href="#thumb"><img src="assets/L.jpg" width="100px" height="70px" border="0" />
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<a class="thumbnail" href="#thumb"><img src="assets/M.jpg" width="100px" height="70px" border="0" />
+
+<a class="thumbnail" href="#thumb"><img src="assets/N.jpg" width="100px" height="70px" border="0" />
+
+<a class="thumbnail" href="#thumb"><img src="assets/O.jpg" width="100px" height="70px" border="0" />
+
+<a class="thumbnail" href="#thumb"><img src="assets/P.jpg" width="100px" height="70px" border="0" />
+<a class="thumbnail" href="#thumb"><img src="assets/Q.jpg" width="100px" height="70px" border="0" />
+
+<a class="thumbnail" href="#thumb"><img src="assets/R.jpg" width="100px" height="70px" border="0" />
+
+<a class="thumbnail" href="#thumb"><img src="assets/S.jpg" width="100px" height="70px" border="0" />
+
+<a class="thumbnail" href="#thumb"><img src="assets/T.jpg" width="100px" height="70px" border="0" />
+
+<a class="thumbnail" href="#thumb"><img src="assets/U.jpg" width="100px" height="70px" border="0" />
+
+<a class="thumbnail" href="#thumb"><img src="assets/V.jpg" width="100px" height="70px" border="0" />
+
+
+<br />
+
+
+</div>

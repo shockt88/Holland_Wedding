@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HollandWedding</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag  "holland", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	
+	<div class="topbar">
+	<ul>
+	  <li><%= link_to "Home", "/home"  %></li>
+      <li><%= link_to "Story", "/story"  %></li>
+      <li><%= link_to "Photos", "/photos"  %></li>
+      <li><%= link_to "Party", "/party"  %></li>
+      <li><%= link_to "Favorite Things", "/favorite"  %></li>
+      <li><%= link_to "Directions", "/directions"  %></li>
+	</ul>
+	</div>
+
+	  
+
+	 
+   <div class="sidebar">
+	<ul>
+	<li><%= link_to "Location", "http://www.southbranchchicago.com", :target => '_blank'  %></li><br><br>
+    <li><%= link_to "Hotel", "https://www.starwoodmeeting.com/StarGroupsWeb/booking/reservation?id=1202154711&key=A65A0", :target => '_blank'   %></li><br><br> 
+	<li><%= link_to "Rehearsal", "http://www.wix.com/fsorano/enotecaroma", :target => '_blank'   %></li><br><br>
+    <li><%= link_to "Registry", "/path4"  %></li><br><br>
+    </ul>
+    </div> 
+
+
+	
+
+
+	
+	
+     
+	
+<%= yield %>
+
+</body>
+</html>

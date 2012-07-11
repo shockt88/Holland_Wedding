@@ -1,0 +1,46 @@
+body {
+	font-family: sans-serif;
+	background-color: #9FB6CD;
+}
+
+li {
+	display: inline;
+	padding-right: 20px;
+}
+ 
+ul a { 
+	text-decoration: none;
+	color: #33FFCC;
+
+	}
+	
+ul a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.sidebar {  
+    float: right;  
+    width: 150px;
+    background: #5F9EA0;   
+    margin: 10px; 
+    margin-top: 130px; 
+    
+}
+
+.sidebar li {
+	color:red;
+}
+
+.topbar {
+	
+	width: 570px;
+	height: 18px;
+	background: #5F9EA0;
+	position: relative;
+	
+}
+
+
+	
+	
